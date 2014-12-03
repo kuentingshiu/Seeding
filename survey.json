@@ -1,0 +1,12 @@
+[
+{   
+ "id":0,
+ "enterInfo":"Test Location Information",
+ "exitNodes":[1,2]
+},
+
+{   "id":1,
+      "enterInfo":"Test Location Information2",
+      "exitNodes":[3,4]
+}
+]

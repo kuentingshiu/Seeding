@@ -1,0 +1,45 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'maven'
+
+mainClassName = 'SeedingData'
+
+jar {
+    baseName = 'xiwami_seeding'
+    version =  '0.0.1'
+}
+
+repositories {
+	mavenLocal()
+	mavenCentral()
+}
+
+dependencies {
+    //compile group: 'com.google.guava', name: 'guava', version: '17.0'
+    compile("com.googlecode.json-simple:json-simple:1.1.1")
+    compile("org.mongodb:mongo-java-driver:2.12.4")
+    //testCompile("junit:junit:4.11")
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
+
+task createPom << {
+    pom {
+        project {
+            groupId 'com.adarp'
+            artifactId 'xiwamiSeeding'
+            version '0.0.1'
+
+            inceptionYear '2014'
+            licenses {
+                license {
+                    name 'The Apache Software License, Version 2.0'
+                    url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    distribution 'repo'
+                }
+            }
+        }
+    }.writeTo("pom.xml")
+}

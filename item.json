@@ -1,0 +1,39 @@
+[
+{   
+	"name" : "Laptop",
+	"description" : "five years old",
+	"size" : "14 inch",
+	"width" : 14.0,
+	"length" : 6.1,
+	"height" : 1.23,
+	"fromAge" : 5,
+	"toAge" : 150,
+	"condition" : "old",
+	"type" : "electronics",
+	"status" : "used",
+	"price" : 19.9,
+	"imageUrl" : "none",
+	"seller" : "KT",
+	"buyer" : "Wen",
+	"createdDate" : {"$date" : "2012-5-8T09:05:01.782Z"}
+},
+
+{   
+	"name" : "Tiger",
+	"description" : "toy",
+	"size" : "5 inch",
+	"width" : 2.2,
+	"length" : 6.0,
+	"height" : 3.4,
+	"fromAge" : 1,
+	"toAge" : 5,
+	"condition" : "new",
+	"type" : "toy",
+	"status" : "brand new",
+	"price" : 299,
+	"imageUrl" : "none",
+	"seller" : "Sophie",
+	"buyer" : "n/a",
+	"createdDate" : {"$date" : "2014-12-8T03:35:31.782Z"}
+}
+]

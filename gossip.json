@@ -1,0 +1,15 @@
+[
+{   
+	"user" : "KT",
+	"gossipText" : "US President election 2016",
+	"createdDate" : {"$date" : "2014-12-02T02:05:01.782Z"},
+	"answers" : ["Republican", "Democratic"]
+},
+
+{   
+	"user" : "Wen",
+	"gossipText" : "Xiwami outlook 2016",
+	"createdDate" : {"$date" : "2015-12-12T18:23:01.782Z"},
+	"answers" : ["IPO", "positive cash flow"]
+}
+]

@@ -1,0 +1,15 @@
+[
+{   
+	"zipCode" : "48105",
+	"cityState" : "Ann Arbor, MI",
+	"familyName" : "Wen",
+	"description" : "Wen's family"
+},
+
+{   
+	"zipCode" : "10606",
+	"cityState" : "WhitePlains, NY",
+	"familyName" : "KT",
+	"description" : "KT's family"
+}
+]

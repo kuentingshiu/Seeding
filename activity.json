@@ -1,0 +1,25 @@
+[
+{   
+	"creator": "KT",
+	"title" : "KT's birthday",
+	"description" : "KT is 18 years old",
+	"fromTime" : {"$date" : "2014-11-21T18:05:01.782Z"},
+	"toTime" : {"$date" : "2014-11-21T21:30:00.782Z"},
+	"location" : "1101 Kitchawan Rd, Yorktown Heights, NY 10598",
+	"imageData" : "none",
+	"imageURL" : "http://www.google.com",
+	"type" : "birthday party"
+},
+
+{   
+	"creator": "Peggy",
+	"title" : "Percussion final exam",
+	"description" : "PhD qualify exam",
+	"fromTime" : {"$date" : "2016-10-22T15:15:00.782Z"},
+	"toTime" : {"$date" : "2016-10-26T12:30:05.782Z"},
+	"location" : "Lincoln center theater, NY 10023",
+	"imageData" : "none",
+	"imageURL" : "http://www.yahoo.com",
+	"type" : "music performance"
+}
+]

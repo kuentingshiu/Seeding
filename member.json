@@ -1,0 +1,55 @@
+[
+{   
+	"lastName" : "Lai",
+	"firstName" : "Wen",
+	"nickName" : "Wen",
+	"email" : "n/a",
+	"passowrd" : "aa",
+	"birthday" : {"$date" : "1911-11-01T20:19:55.782Z"},
+	"languages" : ["Chinese","English"],
+	"type" : "boss",
+	"gender" : "male",
+	"avatarUrl" : "none",
+	"isUser" : true,
+	"facebookID" : "12345",
+	"items" : ["computer","book"],
+	"family" : "xxx",
+	"imageData" : "none"
+},
+
+{   
+	"lastName" : "Lai",
+	"firstName" : "Sophie",
+	"nickName" : "Sophie",
+	"email" : "n/a",
+	"passowrd" : "aa",
+	"birthday" : {"$date" : "1955-4-17T20:19:55.782Z"},
+	"languages" : ["English"],
+	"type" : "daughter",
+	"gender" : "female",
+	"avatarUrl" : "none",
+	"isUser" : true,
+	"facebookID" : "12346",
+	"items" : ["candy","toy"],
+	"family" : "xxx",
+	"imageData" : "none"
+},
+
+{   
+	"lastName" : "Shiu",
+	"firstName" : "DUMA",
+	"nickName" : "DUMA",
+	"email" : "n/a",
+	"passowrd" : "aa",
+	"birthday" : {"$date" : "2006-8-31T20:19:55.782Z"},
+	"languages" : ["Barking"],
+	"type" : "old dog",
+	"gender" : "male",
+	"avatarUrl" : "none",
+	"isUser" : false,
+	"facebookID" : "12347",
+	"items" : ["car","food"],
+	"family" : "xxo1",
+	"imageData" : "none"
+}
+]

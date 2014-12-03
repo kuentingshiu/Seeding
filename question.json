@@ -1,0 +1,15 @@
+[
+{   
+	"user" : "KT",
+	"questionText" : "how to get additional tax deduction?",
+	"createdDate" : {"$date" : "2014-12-03T23:59:01.782Z"},
+	"answers" : ["no way", "no way+1"]
+},
+
+{   
+	"user" : "Wen",
+	"questionText" : "how to drive to NYC?",
+	"createdDate" : {"$date" : "2013-01-03T10:05:01.782Z"},
+	"answers" : ["by car", "by foot"]
+}
+]
